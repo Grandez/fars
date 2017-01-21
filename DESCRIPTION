@@ -1,0 +1,19 @@
+Package: fars
+Type: Package
+Title: Functions for FARS
+Version: 0.1.0
+Author: Javier Gonzalez
+Maintainer: Javier Gonzalez <javier.gonzalez.grandez@gmail.com>
+Description: This package contains functions to plot car accidents by state and
+    year.
+License: GPL (>= 2)
+Depends:
+    R (>= 3.0.0)
+Imports:
+    tidyr,
+    dplyr,
+    readr,
+    mapdata,
+    maps
+LazyData: TRUE
+RoxygenNote: 5.0.1
