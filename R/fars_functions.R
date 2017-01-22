@@ -10,7 +10,10 @@
 #' @import dplyr
 #' @import maps
 #' @import mapdata
-#'
+
+
+#' @name fars_read
+#' @title Function to read fras files
 #' @description Function to load a CSV dataset into a dataframe
 #' @details Dataset must accomplish the FARS structure
 #'
@@ -32,7 +35,8 @@ fars_read <- function(filename) {
         dplyr::tbl_df(data)
 }
 
-#' Print "make_filename"
+#' @name make_filename
+#' @title Mount the fullpath for a filename
 #'
 #' @description Generates a file name according the naming criteria of FARS
 #'
@@ -50,6 +54,8 @@ make_filename <- function(year) {
 }
 
 #' Print "fars_read_years"
+#' @name fars_read_years
+#' @title Obtains years into file
 #'
 #' @description Load the data files associated to each year and extract month and year
 #'
@@ -79,6 +85,8 @@ fars_read_years <- function(years) {
 }
 #' Print "fars_summarize_years"
 #'
+#' @name fars_summarize_years
+#' @title Summarize years
 #' @description Extract the total amount of accidents by year group by months
 #'
 #' @param years A list or vector with desired years in format YYYY
@@ -114,6 +122,8 @@ fars_summarize_years <- function(years) {
 
 #' Print "fars_map_state"
 #'
+#' @name fars_map_state
+#' @title Plot te accidents
 #' @description Plot the accidents occured into an state along one year
 #'
 #' @param state.num The code of the state
@@ -122,7 +132,7 @@ fars_summarize_years <- function(years) {
 #' @return A plot with the accidents occurred by latitude and longitude
 #'
 #' @examples
-#' fars_map_state(1,2013))
+#' fars_map_state(1,2013)
 #'
 #' @export
 fars_map_state <- function(state.num, year) {

@@ -2,7 +2,7 @@
 % Please edit documentation in R/fars_functions.R
 \name{fars_map_state}
 \alias{fars_map_state}
-\title{Print "fars_map_state"}
+\title{Plot te accidents}
 \usage{
 fars_map_state(state.num, year)
 }
@@ -17,8 +17,11 @@ A plot with the accidents occurred by latitude and longitude
 \description{
 Plot the accidents occured into an state along one year
 }
+\details{
+Print "fars_map_state"
+}
 \examples{
-fars_map_state(1,2013))
+fars_map_state(1,2013)
 
 }
 

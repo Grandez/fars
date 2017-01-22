@@ -2,7 +2,7 @@
 % Please edit documentation in R/fars_functions.R
 \name{fars_read_years}
 \alias{fars_read_years}
-\title{Print "fars_read_years"}
+\title{Obtains years into file}
 \usage{
 fars_read_years(years)
 }
@@ -15,6 +15,9 @@ A list with an element for each file including MONTH and year
 }
 \description{
 Load the data files associated to each year and extract month and year
+}
+\details{
+Print "fars_read_years"
 }
 \examples{
 fars_read_years(2016)

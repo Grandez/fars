@@ -2,7 +2,7 @@
 % Please edit documentation in R/fars_functions.R
 \name{fars_summarize_years}
 \alias{fars_summarize_years}
-\title{Print "fars_summarize_years"}
+\title{Summarize years}
 \usage{
 fars_summarize_years(years)
 }
@@ -14,6 +14,9 @@ A data frame with the amount of accidents for year by month
 }
 \description{
 Extract the total amount of accidents by year group by months
+}
+\details{
+Print "fars_summarize_years"
 }
 \examples{
 fars_read_years(c(2013,2014,2015))

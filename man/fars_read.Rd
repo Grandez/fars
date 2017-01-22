@@ -2,6 +2,7 @@
 % Please edit documentation in R/fars_functions.R
 \name{fars_read}
 \alias{fars_read}
+\title{Function to read fras files}
 \usage{
 fars_read(filename)
 }
