@@ -16,8 +16,4 @@ An string with the name generated
 \description{
 Generates a file name according the naming criteria of FARS
 }
-\examples{
-make_filename(2016)
-
-}
 

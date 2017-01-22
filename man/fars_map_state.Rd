@@ -20,8 +20,4 @@ Plot the accidents occured into an state along one year
 \details{
 Print "fars_map_state"
 }
-\examples{
-fars_map_state(1,2013)
-
-}
 

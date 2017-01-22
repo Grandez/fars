@@ -19,9 +19,4 @@ Load the data files associated to each year and extract month and year
 \details{
 Print "fars_read_years"
 }
-\examples{
-fars_read_years(2016)
-fars_read_years(c(2013,2014,2015))
-
-}
 

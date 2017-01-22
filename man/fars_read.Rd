@@ -27,9 +27,4 @@ Function to load a CSV dataset into a dataframe
 \details{
 Dataset must accomplish the FARS structure
 }
-\examples{
-fars_read('filename')
-fars_read('dir1/dir2/filename')
-
-}
 
